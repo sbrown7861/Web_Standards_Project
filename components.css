@@ -2,8 +2,131 @@
 B&O CSS
 */
 
+#BO_wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #999999;
 
-#BO_wrapper h1 {
-    font: 3em sans-serif #fff;
 }
 
+#BO_wrapper p:nth-of-type(1) {
+
+    float: right;
+    display: block;
+    font-weight: 100;
+    padding-left: 30%;
+
+}
+
+#BO_wrapper h1 {
+    float: right;
+    display: block;
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-left: 30%;
+    text-align: center;
+    padding-right: 5%;
+}
+
+#BO_wrapper h2{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+
+#BO_wrapper button{
+
+    height: 30px;
+    width: 150px;
+    border: 1px solid #000;
+    background-color: #d3d3d3;
+    margin-left:60% ;
+
+
+}
+
+#BO_wrapper article{
+    background-color: #d3d3d3;
+    width: 30%;
+    padding: 0.82%;
+    margin: 0.82%;
+    display:block;
+    float: left;
+    clear: right;
+
+}
+
+/*Could not get elements to overlap like in the picture without having the button be
+in the way*/
+
+
+
+
+/*Carefully considered styles for toolbar*/
+
+
+#CC_wrapper header{
+    width: 100%;
+    height: 5%;
+    background-color: #000000;
+}
+
+#CC_wrapper nav:first-of-type{
+    display: inline;
+    padding-left: 33%;
+}
+
+#CC_wrapper nav:last-of-type{
+    padding-left: 30%;
+    display: inline;
+}
+
+#CC_wrapper button{
+    background-color: #999999;
+    border: 1px solid #d3d3d3;
+    margin-bottom: .26%;
+
+
+}
+
+#CC_wrapper button:hover{
+    background-color: #fff;
+
+    -webkit-transition:all 1s ease.5s;
+
+    -moz-transition:all 1s ease.5s;
+
+    -o-transition:all 1s ease.5s;
+
+    transition: all 1s ease.5s;
+}
+
+
+
+/*Inhouse styles*/
+
+
+#inhouse_wrapper nav{
+    height: 10%;
+    width: 100%;
+    display: block;
+    text-align: center;
+
+}
+
+#inhouse_wrapper li:hover{
+    text-decoration: underline;
+}
+
+#inhouse_wrapper li:visited{
+    text-decoration: underline;
+}
+
+#inhouse_wrapper h1{
+    text-align: center;
+}
+
+#inhouse_wrapper p{
+    text-align: center;
+}
