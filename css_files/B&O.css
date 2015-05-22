@@ -1,0 +1,59 @@
+/*
+B&O CSS
+*/
+
+
+ p:nth-of-type(2) {
+
+    float: right;
+    display: block;
+    font-weight: 100;
+     padding-left: 30%;
+
+}
+
+h1 {
+    float: right;
+    display: block;
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-left: 30%;
+    text-align: center;
+    padding-right: 5%;
+}
+
+ h2{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+
+li{
+    list-style: none;
+    float: right;
+}
+
+
+
+
+
+article{
+    background-color: #d3d3d3;
+    width: 30%;
+    padding: 0.82%;
+    margin: 0.82%;
+    display:block;
+    float: left;
+    clear: right;
+
+}
+
+/*Could not get elements to overlap like in the picture without having the button be
+in the way*/
+
+
+
+
+
+

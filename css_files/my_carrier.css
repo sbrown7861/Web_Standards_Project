@@ -1,0 +1,56 @@
+article h3{
+    font-size: 3em;
+    font-style: oblique;
+}
+
+article input:first-of-type{
+    float: left;
+}
+
+article label:first-of-type{
+    float: left;
+}
+
+article input:last-of-type{
+    float: left;
+    position: relative;
+    bottom: -100px;
+    left: -200px;
+
+}
+
+article label:last-of-type{
+    float: left;
+    position: relative;
+    bottom: -100px;
+    left: -200px;
+}
+
+article p{
+    float: right;
+    width: 30%;
+    background-color: #000000;
+    color: #d3d3d3;
+    padding: 3%;
+
+}
+
+article button{
+    position: relative;
+    bottom: -160px;
+    left: -600px;
+    width: 80px;
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+
+
+}
+
+article a:last-child{
+    position: relative;
+    right: -920px;
+    bottom: -150px;
+    color: #ffffff;
+}
+

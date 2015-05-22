@@ -20,9 +20,6 @@ h2{
 }
 
 
-p{
-    font-size: 1em;
-}
 
 
 img.ri
@@ -50,6 +47,13 @@ img.ri
 
 #main_nav li{
     margin-right: 10%;
+    font-family: monospace;
+    list-style:none;
+    padding: 0.465%;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-style: oblique;
+    display: inline;
 
 
 
@@ -88,17 +92,6 @@ img.ri
 
 }
 
-li {
-
-    font-family: monospace;
-    list-style:none;
-    padding: 0.465%;
-    font-weight: 600;
-    font-size: 1.5em;
-    font-style: oblique;
-    display: inline;
-
-}
 
 
 /* unvisited link */

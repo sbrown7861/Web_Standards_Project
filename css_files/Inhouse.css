@@ -1,0 +1,36 @@
+
+/*Inhouse styles*/
+
+
+ nav{
+    height: 10%;
+    width: 100%;
+    display: block;
+    text-align: center;
+
+}
+
+li{
+    font-family: monospace;
+    list-style:none;
+    display: inline;
+    padding: 0.465%;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+ li:hover{
+    text-decoration: underline;
+}
+
+li:visited{
+    text-decoration: underline;
+}
+
+ h1{
+    text-align: center;
+}
+
+ p:last-of-type{
+    text-align: center;
+}
