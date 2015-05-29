@@ -1,0 +1,63 @@
+
+header{
+    width: 80%;
+}
+
+
+header ul{
+    display: inline;
+    float: left;
+    clear: both;
+}
+
+h3{
+    float:left;
+    position: relative;
+    right:-200px
+
+}
+
+h3:nth-of-type(2){
+    float: right;
+    position: relative;
+    left: -200px;
+}
+
+h1{
+    float: left;
+    width: 50%;
+    clear: both;
+    position: relative;
+    top: 280px;
+    text-align: center;
+}
+
+article{
+    box-shadow: none;
+    width: 50%;
+    float: right;
+    background-color: #d3d3d3;
+}
+
+
+nav{
+
+    position: relative;
+    top: 350px;
+    width: 50%;
+    right: 150px;
+
+}
+
+ul{
+    display: inline;
+    width: 80%;
+    position: relative;
+    right: -150px;
+}
+
+
+#main_nav{
+    position: relative;
+    right: 40px;
+}

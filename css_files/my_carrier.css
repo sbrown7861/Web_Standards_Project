@@ -54,3 +54,8 @@ article a:last-child{
     color: #ffffff;
 }
 
+/*Over rides main stylesheet to negate box shadow*/
+
+article{
+    box-shadow: none;
+}

@@ -45,7 +45,7 @@ img.ri
 
 }
 
-#main_nav li{
+ul>li{
     margin-right: 10%;
     font-family: monospace;
     list-style:none;
@@ -77,21 +77,7 @@ img.ri
     display: inline-block;
     padding: 20px;
 
-
-
 }
-
-
-#comps {
-
-    opacity: .8;
-    width: 80%;
-    height: 20%;
-    padding: 20px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.9);
-
-}
-
 
 
 /* unvisited link */
@@ -120,7 +106,7 @@ a:active {
 
 
 
-#about-me {
+article{
     width: 100%;
     height: 100%;
     padding: 1.25%;
@@ -132,15 +118,5 @@ a:active {
 }
 
 
-#projects {
-    width: 100%;
-    height: 100%;
-    padding: 1.25%;
-    opacity: .8;
-    text-decoration: none;
-    list-style-type: none;
-    display: inline-block;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.9);
-}
 
 

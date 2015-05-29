@@ -34,3 +34,11 @@ li:visited{
  p:last-of-type{
     text-align: center;
 }
+
+
+ /*Over rides main style sheet to have no box shadow in my component article*/
+
+ article{
+     box-shadow: none;
+ }
+
